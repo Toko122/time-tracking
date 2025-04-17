@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-[Rubik] font-thin overflow-x-hidden">
+
+
+    <section class="w-full h-full bg-[#0C1224]">
+        <div class="contain w-full h-full flex justify-center items-center gap-8">
+
+            <div class="wrapper-container flex flex-col justify-center items-center h-full">
+                <div class="jerremy bg-[#5746EA] flex flex-col gap-12 px-10 pr-30 rounded-[12px] py-10 pb-16">
+
+                    <div class="jerremy-image w-[90px] h-[90px] border-white border-3 rounded-full">
+                        <img class="w-full h-full" src="./../assets/image-jeremy.png">
+                    </div>
+
+                    <div class="jerremy-container">
+
+                        <div class="report-text text-[#ccc] text-[18px] tracking-wide">Report for</div>
+                        <div class="jerremy-text flex flex-col text-white text-[50px] tracking-wide">
+                            <div class="">Jeremi</div>
+                            <div class="-mt-2">Robson</div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="bg-[#1D204B] flex flex-col w-full rounded-b-[12px] py-8 -mt-[6px]">
+
+                    <div class="changer flex flex-col gap-2 text-[18px] px-8">
+
+                        <div id="daily"
+                            class="cursor-pointer hover:text-white text-[#ccc] select-none  w-[fit-content]">
+                            Daily</div>
+                        <div id="weekly"
+                            class="cursor-pointer hover:text-white select-none text-[#ccc] w-[fit-content]">
+                            Weekly
+                        </div>
+                        <div id="monthly"
+                            class="cursor-pointer hover:text-white  select-none text-[#ccc] w-[fit-content]">
+                            Monthly
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="wrapper grid grid-cols-3 gap-6">
+
+                <div class="box bg-[#FF8B64] rounded-[15px] h-[270px] w-[305px] relative cursor-pointer">
+                    <div class="absolute top-0 right-0"><img src="./../assets/icon-work.svg"></div>
+
+                    <div class="w-full h-full flex items-end absolute ">
+                        <div
+                            class="bg-[#1D204B] hover:bg-gray-500 transition duration-300  px-10 w-full h-[220px] flex flex-col justify-center rounded-l-[15px] rounded-r-[15px] rounded-b-[10px]">
+
+                            <div class="flex justify-between items-center w-full">
+                                <div class="text-white text-[22px]"> Work </div>
+                                <div class="cursor-pointer"><img src="./../assets/icon-ellipsis.svg"></div>
+                            </div>
+
+                            <div class="hours-container">
+                                <div id="work" class="hour-style text-[70px] w-full text-white">3hrs</div>
+
+                                <div class="last-week text-[16px] w-full text-[#ccc] -mt-2">Last week - 36hrs
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box bg-blue-300 rounded-[15px] h-[270px] w-[305px] relative cursor-pointer">
+                    <div class="absolute top-0 right-0"><img src="./../assets/icon-play.svg"></div>
+
+                    <div class="w-full h-full flex items-end absolute ">
+                        <div
+                            class="bg-[#1D204B] hover:bg-gray-500 transition duration-300  px-10 w-full h-[220px] flex flex-col justify-center rounded-l-[15px] rounded-r-[15px] rounded-b-[10px]">
+
+                            <div class="flex justify-between items-center w-full">
+                                <div class="text-white text-[22px]"> Play </div>
+                                <div class="cursor-pointer"><img src="./../assets/icon-ellipsis.svg"></div>
+                            </div>
+
+                            <div class="hours-container">
+                                <div id="play" class="hour-style text-[70px] w-full text-white">5hrs</div>
+
+                                <div class="last-week text-[16px] w-full text-[#ccc] -mt-2">Last week - 36hrs
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="box bg-pink-300 rounded-[15px] h-[270px] w-[305px] relative cursor-pointer">
+                    <div class="absolute top-0 right-0"><img src="./../assets/icon-study.svg"></div>
+
+                    <div class="w-full h-full flex items-end absolute ">
+                        <div
+                            class="bg-[#1D204B] hover:bg-gray-500 transition duration-300  px-10 w-full h-[220px] flex flex-col justify-center rounded-l-[15px] rounded-r-[15px] rounded-b-[10px]">
+
+                            <div class="flex justify-between items-center w-full">
+                                <div class="text-white text-[22px]"> Study </div>
+                                <div class="cursor-pointer"><img src="./../assets/icon-ellipsis.svg"></div>
+                            </div>
+
+                            <div class="hours-container">
+                                <div id="study" class="hour-style text-[70px] w-full text-white">6hrs</div>
+
+                                <div class="last-week text-[16px] w-full text-[#ccc] -mt-2">Last week - 36hrs
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="box bg-green-400 rounded-[15px] h-[270px] w-[305px] relative cursor-pointer">
+                    <div class="absolute top-0 right-0"><img src="./../assets/icon-exercise.svg"></div>
+
+                    <div class="w-full h-full flex items-end absolute ">
+                        <div
+                            class="bg-[#1D204B] hover:bg-gray-500 transition duration-300  px-10 w-full h-[220px] flex flex-col justify-center rounded-l-[15px] rounded-r-[15px] rounded-b-[10px]">
+
+                            <div class="flex justify-between items-center w-full">
+                                <div class="text-white text-[22px]"> Exercise </div>
+                                <div class="cursor-pointer"><img src="./../assets/icon-ellipsis.svg"></div>
+                            </div>
+
+                            <div class="hours-container">
+                                <div id="exercise" class="hour-style text-[70px] w-full text-white">4hrs</div>
+
+                                <div class="last-week text-[16px] w-full text-[#ccc] -mt-2">Last week - 36hrs
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="box bg-purple-700 rounded-[15px] h-[270px] w-[305px] relative cursor-pointer">
+                    <div class="absolute top-0 right-0"><img src="./../assets/icon-social.svg"></div>
+
+                    <div class="w-full h-full flex items-end absolute ">
+                        <div
+                            class="bg-[#1D204B] hover:bg-gray-500 transition duration-300  px-10 w-full h-[220px] flex flex-col justify-center rounded-l-[15px] rounded-r-[15px] rounded-b-[10px]">
+
+                            <div class="flex justify-between items-center w-full">
+                                <div class="text-white text-[22px]"> Social </div>
+                                <div class="cursor-pointer"><img src="./../assets/icon-ellipsis.svg"></div>
+                            </div>
+
+                            <div class="hours-container">
+                                <div id="social" class="hour-style text-[70px] w-full text-white">11hrs</div>
+
+                                <div class="last-week text-[16px] w-full text-[#ccc] -mt-2">Last week - 36hrs
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="box bg-[#FF8B64] rounded-[15px] h-[270px] w-[305px] relative cursor-pointer">
+                    <div class="absolute top-0 right-0"><img src="./../assets/icon-self-care.svg"></div>
+
+                    <div class="w-full h-full flex items-end absolute ">
+                        <div
+                            class="bg-[#1D204B] hover:bg-gray-500 transition duration-300  px-10 w-full h-[220px] flex flex-col justify-center rounded-l-[15px] rounded-r-[15px] rounded-b-[10px]">
+
+                            <div class="flex justify-between items-center w-full">
+                                <div class="text-white text-[22px]"> Self Care </div>
+                                <div class="cursor-pointer"><img src="./../assets/icon-ellipsis.svg"></div>
+                            </div>
+
+                            <div class="hours-container">
+                                <div id="selfcare" class="hour-style text-[70px] w-full text-white">3hrs</div>
+
+                                <div class="last-week text-[16px] w-full text-[#ccc] -mt-2">Last week - 36hrs
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+
+
+</html>

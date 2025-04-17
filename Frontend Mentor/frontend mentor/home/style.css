@@ -1,0 +1,156 @@
+.contain{
+    height: 100vh;
+}
+
+@media only screen and (max-width:1440px){
+    .contain{
+        flex-direction: column;
+        padding:10px 10px 10px 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .wrapper-container{
+        width: 634px;
+    }
+
+    .jerremy{
+        display: flex !important;
+        width: 634px;
+        flex-direction: row !important;
+        justify-content: center !important;
+        padding:35px 0 35px 0 !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .jerremy-image{
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .report-text{
+        font-size: 16px;
+        
+    }
+
+    .jerremy-text{
+        font-size: 24px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        
+    }
+    
+    .jerremy-container{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: row;
+        gap: 20px;
+
+    }
+
+    .-mt-2{
+        margin-top: 0;
+    }
+    .changer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        font-size: 22px;
+        gap: 40px;
+    }
+
+    .wrapper{
+          grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width:660px){
+    .contain{
+        flex-direction: column !important;
+        padding:10px 10px 10px 10px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .wrapper-container{
+        width: 375px !important;
+    }
+
+    .jerremy{
+        display: flex !important;
+        width: 375px !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+
+    
+
+    .report-text{
+        font-size: 16px !important;
+        text-align: start;
+        width: 100%;
+    }
+
+    .jerremy-text{
+        font-size: 30px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important; 
+        align-items: center !important;
+        gap: 10px !important;
+    }
+    
+    .jerremy-container{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 25px !important;
+        flex-direction: column !important;
+    }
+
+    .-mt-2{
+        margin-top: 0 !important;
+    }
+    .changer{
+        display: flex !important;
+        justify-content: center!important;
+        align-items: center !important;
+        flex-direction: row !important;
+        font-size: 18px !important;
+        gap: 40px !important;
+    }
+
+    .wrapper{
+          grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .box{
+        width: 375px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .hours-container{
+       display: flex !important;
+       align-items: center !important;
+       width: 100% !important;
+       justify-content: space-around !important;
+    }
+
+    
+
+    .last-week{
+        display: flex !important;
+        justify-content: end !important;
+    }
+
+    .hour-style{
+        font-size: 50px !important;
+    }
+}
